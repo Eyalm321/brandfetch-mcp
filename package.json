@@ -1,0 +1,49 @@
+{
+  "name": "brandfetch-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for the Brandfetch API — brand data, search, transaction lookup, and the Logo CDN",
+  "main": "dist/index.js",
+  "bin": {
+    "brandfetch-mcp-server": "dist/index.js"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "brandfetch",
+    "brand",
+    "logo",
+    "claude",
+    "model-context-protocol"
+  ],
+  "author": "Eyalm321",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eyalm321/brandfetch-mcp.git"
+  },
+  "homepage": "https://github.com/Eyalm321/brandfetch-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/Eyalm321/brandfetch-mcp/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.2"
+  }
+}
