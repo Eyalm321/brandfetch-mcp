@@ -13,6 +13,6 @@ No tool or API changes. Same Node support.
 - Dependabot with a 14-day cooldown (#1).
 - npm publishing uses trusted publishing (OIDC). Workflow actions are pinned to commit SHAs (#2).
 
-## Earlier versions
+## 1.0.0
 
-See the [GitHub releases](https://github.com/Eyalm321/brandfetch-mcp/releases).
+First release on npm.
