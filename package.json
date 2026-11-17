@@ -1,6 +1,6 @@
 {
   "name": "brandfetch-mcp-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for the Brandfetch API — brand data, search, transaction lookup, and the Logo CDN",
   "main": "dist/index.js",
   "bin": {
