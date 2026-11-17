@@ -8,7 +8,7 @@ import { utilityTools } from "./tools/utility.js";
 
 const server = new McpServer({
   name: "brandfetch-mcp",
-  version: "1.0.1",
+  version: "1.0.2",
 });
 
 const allTools = [
